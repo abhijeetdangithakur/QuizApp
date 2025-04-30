@@ -277,5 +277,5 @@ function endQuiz() {
 document.getElementById("restart-quiz").addEventListener("click", () => {
   location.reload();
 });
-
+console.log("game started");
 QUIZstarted();
