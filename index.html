@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="main-page">
+            <h1>Quiz Master</h1>
+            <div class="credential">
+                <div class="info-div">
+                <h2>Enter your Name..</h2>
+                <input type="text" placeholder="Enter Name.." name="" id="firstName" draggable="true">
+                <button id="Start-Quiz">Start Quiz</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Ending Screen -->
+<div class="end-screen" style="display: none;">
+    <div class="main-page">
+        <h1>Quiz Over</h1>
+        <div class="credential">
+            <div class="info-div">
+                <h2 id="final-score">Your Score: 0</h2>
+                <button id="restart-quiz">Restart Quiz</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    <div class="quiz-screen">
+
+        <nav>
+            <h2>Quiz Master</h2>
+            <h2 id="myName"></h2>
+            <h2 id="que-timer">Timer: 00</h2>
+        </nav>
+
+        <div class="quiz-screen-after-nav">
+            <div class="left-quiz-div">
+               
+                <div class="left-quiz-div-top">
+
+
+                </div>
+                <div class="left-quiz-div-bottom">
+                    
+                    <div class="question-data">
+
+                        <!-- <h1>Q1. What is Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam quas, dolorum deserunt rem, voluptate corporis at nisi ea itaque optio, porro consequatur explicabo sit laboriosam eaque tenetur odio cum commodi? the name of your principal? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium delectus itaque voluptate ipsum. Vel dolore itaque doloremque quas omnis exercitationem.</h1>
+                        <button class="option-btn">Option 1</button>
+                        <button class="option-btn">Option 2</button>
+                        <button class="option-btn">Option 3</button>
+                        <button class="option-btn">Option 4</button> -->
+
+                      </div>
+    
+                    <div class="question-response">
+                        <button id="save-next">Save & Next</button>
+                        <button id="mark-review">Mark for Review</button>
+                      </div>
+                </div>
+            </div>
+            <div class="right-quiz-div">
+                <h1>General Knowledge</h1>
+              
+                <div id="all-questions-number">
+                <div class="q">1</div>
+                <div class="q">2</div>
+                <div class="q">3</div>
+                </div>
+
+            </div>
+        </div>
+
+        
+
+    </div>
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
