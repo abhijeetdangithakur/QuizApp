@@ -310,19 +310,19 @@ body {
     /* display: flex; */
   }
   #all-questions-number {
-    max-height: 500px;           /* Adjust based on your layout */
+    max-height: 500px;           
     overflow-y: auto; 
     width: 100%;
     display: flex;
-    flex-wrap: wrap;     /* Wrap to next line */
+    flex-wrap: wrap;     
     gap: 15px;
-    /* background-color: #000; */
+
     padding: 10px;
     border-radius: 12px;
     justify-content: start;
   }
   #all-questions-number::-webkit-scrollbar {
-    display: none;                    /* Chrome, Safari and Opera */
+    display: none;              
   }
   
   .q {
