@@ -2,6 +2,11 @@
 
 This is a simple Quiz Application made using HTML, CSS, and JavaScript.
 
+## 🔹 Live Demo
+Check it out here: [Quiz App Live](https://abhijeetdangithakur.github.io/QuizApp/)
+
+---
+
 ## How It Started
 
 I created this project to practice frontend web development using only basic web technologies without any libraries or frameworks.
